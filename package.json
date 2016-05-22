@@ -1,0 +1,19 @@
+{
+  "name": "test-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp bundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "1.8.3",
+    "gulp": "3.9.1",
+    "gulp-rollup": "1.9.0",
+    "rollup": "0.26.3",
+    "rollup-plugin-alias": "1.2.0"
+  }
+}
