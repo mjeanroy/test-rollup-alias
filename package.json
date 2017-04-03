@@ -1,19 +1,20 @@
 {
   "name": "test-rollup",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple text with rollup",
   "main": "index.js",
   "scripts": {
-    "build": "gulp bundle",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mickael Jeanroy",
+  "license": "MIT",
   "dependencies": {
-    "underscore": "1.8.3",
-    "gulp": "3.9.1",
-    "gulp-rollup": "1.9.0",
-    "rollup": "0.26.3",
-    "rollup-plugin-alias": "1.2.0"
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "rollup": "0.41.6",
+    "rollup-plugin-alias": "1.2.0",
+    "rollup-plugin-commonjs": "8.0.2",
+    "rollup-plugin-node-resolve": "3.0.0"
   }
 }
